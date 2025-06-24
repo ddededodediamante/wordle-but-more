@@ -6021,4 +6021,5 @@ const allWords = [
   "rumba",
   "biffy",
   "pupal",
+  "gyatt"
 ];
