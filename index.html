@@ -10,22 +10,45 @@
 
 <body>
     <button id="helpBtn">?</button>
-    
+
     <div id="helpPopup" class="popup hidden">
         <div class="popup-content">
             <h2>Color Meanings</h2>
             <ul>
-                <li><span class="legend correct"></span> <strong>Correct</strong>: Exact match (right letter & spot)</li>
-                <li><span class="legend mirror"></span> <strong>Mirror</strong>: Right letter, mirrored position</li>
-                <li><span class="legend present"></span> <strong>Present</strong>: Letter exists, wrong spot</li>
-                <li><span class="legend alphabet"></span> <strong>Alphabet</strong>: Near in the alphabet (ex: "B" -> "A" or "C")
+                <li>
+                    <span class="legend correct"></span>
+                    <strong>Correct</strong>: Exact match (right letter & spot)
                 </li>
-                <li><span class="legend keyboardic"></span> <strong>Keyboardic</strong>: Near on keyboard (ex: "Q" -> "W" or "A")
+                <li>
+                    <span class="legend mirror"></span>
+                    <strong>Mirror</strong>: Right letter, mirrored position
                 </li>
-                <li><span class="legend phonetic"></span> <strong>Phonetic</strong>: Same type (vowel/consonant) in the same spot</li>
-                <li><span class="legend ddededodediamante"></span> <strong>ddededodediamante</strong>: Letter from
-                    "ddededodediamante"</li>
-                <li><span class="legend absent"></span> <strong>Absent</strong>: Letter isn't in the word at all</li>
+                <li>
+                    <span class="legend present"></span>
+                    <strong>Present</strong>: Letter exists, wrong spot
+                </li>
+                <li>
+                    <span class="legend alphabet"></span>
+                    <strong>Alphabet</strong>: A nearby letter in the alphabet is in the word (e.g. "B" → "A" or "C")
+                </li>
+                <li>
+                    <span class="legend keyboardic"></span>
+                    <strong>Keyboardic</strong>: A nearby key is in the word (e.g. "Q" → "W" or "A")
+                </li>
+                <li>
+                    <span class="legend phonetic"></span>
+                    <strong>Phonetic</strong>: Same type (vowel/consonant) in the
+                    same spot
+                </li>
+                <li>
+                    <span class="legend ddededodediamante"></span>
+                    <strong>ddededodediamante</strong>: Letter from
+                    "ddededodediamante"
+                </li>
+                <li>
+                    <span class="legend absent"></span>
+                    <strong>Absent</strong>: Letter isn't in the word at all
+                </li>
             </ul>
             <button id="closeHelp">Close</button>
         </div>
