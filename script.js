@@ -189,7 +189,7 @@ function handleBackspace() {
 }
 
 function handleEnter() {
-  if (guess.length === 5) {
+  if (guess.length === 5 && allWords.includes(guess)) {
     checkGuess();
   }
 }
